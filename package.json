@@ -1,0 +1,15 @@
+{
+  "name": "plistgenserver",
+  "module": "src/init.ts",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'bun' src/init.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
