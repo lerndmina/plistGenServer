@@ -87,6 +87,8 @@ const server = serve({
 
       const plistXml = PLIST_TEMPLATE.replace("{bundleid}", params.bundleid).replace("{version}", params.version).replace("{name}", params.name).replace("{fetchurl}", params.fetchurl);
 
+      console.log({ message: "Successfully generated manifest.plist", params, time: new Date() });
+
       return new Response(plistXml, {
         headers: {
           "Content-Type": "application/octet-stream",
