@@ -57,16 +57,10 @@ http://localhost:3000/genPlist?bundleid=com.example.app&name=MyApp&version=1.0.0
 
 ## Environment Variables
 
-- 
-
-PORT
-
-: Server port (default: 3000)
-- 
-
-HOSTNAME
-
-: Server hostname (default: 0.0.0.0)
+```
+PORT #Server port (default: 3000)
+HOSTNAME #Server hostname (default: 0.0.0.0)
+```
 
 ## License
 
